@@ -1,0 +1,203 @@
+/* home html styling */
+
+
+html {
+  scroll-behavior: smooth;
+}
+section {
+  
+}
+
+body {
+    /* background-color: #191919 */
+    background-image: url("/assets/images/background.png"); /* path to your image */
+    background-size: cover;         /* scales image to cover entire screen */
+    background-repeat: no-repeat;   /* no repeat */
+    background-position: center;    /* keep the image centered */
+    background-attachment: fixed;
+}
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+
+}
+
+.home-header__name {
+    font-family: Michroma ,sans-serif;
+    font-size: 2rem;
+    margin-left: 6rem;
+    cursor: pointer;
+    color: #66b266;
+    text-shadow: 0 0 20px #66b266;
+
+}
+
+.home-header__name:hover {
+    color: #99cc99;
+}
+
+.home-header__nav-list {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    align-items: center;
+}
+
+.home-header__nav-item a {
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.4rem;
+    color: #66b266;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-shadow: 0 0 20px #66b266;
+    transition: color 0.2s ease;
+}
+
+.home-header__nav-item a:hover {
+    color: #99cc99;
+}
+
+.home__container {
+    display: flex;
+    
+}
+
+.home__pic-container {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    
+}
+
+.home__pic-container img {
+  width: 28rem;
+  height: auto;
+  border-radius: 50%;        
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 0 20px #66b266;
+}
+
+.home__text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+.home__textp1 {
+    text-align: center;
+    cursor: pointer;
+    margin-left: 5rem;
+    margin-bottom: 0.2rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 20px #66b266;
+}
+
+.home__textp1:hover {
+    color: #99cc99;
+}
+
+.home__text-title {
+    margin-left: 3rem;
+    cursor: pointer;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 3rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 30px #66b266;
+}
+
+.home__text-title:hover {
+    color: #99cc99;
+}
+
+.home__textp2 {
+    margin-top: 0.2rem;
+    cursor: pointer;
+    margin-left: 8.5rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 40px #66b266;
+}
+
+.home__textp2:hover {
+    color: #99cc99;
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 5.7rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-1 {
+    background-color:#b2d8b2;
+    text-shadow: 0 0 40px #66b266;
+    color: #329932;
+    font-family: Michroma, sans-serif;
+    box-shadow: 0 0 20px #66b266;
+    font-size: 0.8rem;
+}
+
+.btn-1:hover {
+    background-color: #99cc99;
+    color: #fff;
+}
+
+.btn-2 {
+    background-color:#b2d8b2;
+    text-shadow: 0 0 40px #66b266;
+    font-family: Michroma, sans-serif;
+    color: #329932;
+    box-shadow: 0 0 20px #66b266;
+    font-size: 0.8rem;
+}
+
+.btn-2:hover {
+    background-color: #99cc99;
+    color: #fff;
+}
+
+.socials-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    
+}
+
+.fa-linkedin {
+    color: #66b266;
+    font-size: 3rem;       
+    text-shadow: 0 0 20px #66b266;
+}
+
+.fa-linkedin:hover {
+    color: #99cc99;
+}
+
+.fa-github {
+    color: #66b266;
+    font-size: 3rem;
+    text-shadow: 0 0 20px #66b266;
+}
+
+.fa-github:hover {
+    color: #99cc99;
+}
