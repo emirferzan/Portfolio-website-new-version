@@ -5,17 +5,18 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  
+  padding: 1rem 1rem;
 }
 
 body {
-    /* background-color: #191919 */
+    /* background-color: #191919; */
     background-image: url("/assets/images/background.png"); /* path to your image */
     background-size: cover;         /* scales image to cover entire screen */
     background-repeat: no-repeat;   /* no repeat */
     background-position: center;    /* keep the image centered */
     background-attachment: fixed;
 }
+
 .home-header {
     display: flex;
     justify-content: space-between;
@@ -186,18 +187,98 @@ body {
     color: #66b266;
     font-size: 3rem;       
     text-shadow: 0 0 20px #66b266;
+    
 }
 
 .fa-linkedin:hover {
     color: #99cc99;
+    cursor: pointer;
 }
 
 .fa-github {
     color: #66b266;
     font-size: 3rem;
     text-shadow: 0 0 20px #66b266;
+    cursor: pointer;
 }
 
 .fa-github:hover {
     color: #99cc99;
+}
+
+/* about me styling css*/
+
+
+.about__container {
+    display: flex;
+    
+}   
+
+.binary-canvas-container {
+    display: flex;
+    margin-left: 50px;
+}
+
+.about__text-container {
+    margin-left: 16rem;
+}
+
+.about__textp1 {
+    margin-left: 7rem;
+    margin-bottom: 0.2rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 20px #66b266;
+}
+
+.about__textp1:hover {
+    color: #99cc99;
+}
+
+.about__text-title {
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    font-size: 3rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 30px #66b266;
+}
+
+.about__text-title:hover {
+    color: #99cc99;
+}
+
+.binary-canvas-container {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.about__description-text {
+    margin-top: 3.5rem;
+    margin-right: 7rem;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 20px #66b266;
+    white-space: nowrap; 
+    overflow: hidden; 
+
+    white-space: pre-line;
+}
+
+.about__description-text::after {
+  content: '|';  /* the cursor character */
+  display: inline-block;
+  color: #66b266;
+  animation: blinkCursor 1s steps(1) infinite;
+  margin-left: 2px;
+  font-weight: bold;
+  font-size: 1em;  /* same size as text */
+  vertical-align: bottom;
+}
+
+@keyframes blinkCursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
 }
