@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
 }
 
 body {
@@ -282,3 +282,107 @@ body {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+
+/* experience css*/
+
+#experience .home__textp1 {
+    text-align: center;
+}
+#experience .home__text-title {
+    text-align: center;
+}
+
+
+.experience__about-containers {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.experience__container {
+    border: 2px solid #4ca64c;
+    border-radius: 20px;           /* Rounded corners (optional) */
+    padding: 1.5rem;                /* Space inside the box */
+    box-shadow: 0 0 20px #99cc99; /* Soft shadow (optional) */
+    box-shadow:inset 0 0 10px #99cc99; /* Soft shadow (optional) */
+}
+
+.experience__title-container {
+    font-family: Michroma, sans-serif;
+    font-weight: bolder;
+    color: #66b266;
+    text-shadow: 0 0 30px #66b266;
+    font-size: 2rem;
+}
+
+.experience__role-container {
+    font-family: Michroma, sans-serif;
+    color: #99cc99;
+    font-size: 19px;
+    text-shadow: 0 0 30px #66b266;
+}
+
+.experience__role-list {
+    color: #b2d8b2;
+    text-shadow: 0 0 7px #b2d8b2;
+    font-size: 18px;
+}
+
+/* projects styling */
+
+#projects .home__textp1 {
+    text-align: center;
+}
+#projects .home__text-title {
+    margin-left: 4rem;
+    text-align: center;
+}
+
+.projects__details-container {
+    margin-top: 0.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-left: 2.5rem;
+}
+.projects__indv-container {
+    transform: scale(0.93); /* 80% size */
+    width: 400px;
+    border: 2px solid #4ca64c;
+    border-radius: 20px;           /* Rounded corners (optional) */
+    padding: 1.5rem;                /* Space inside the box */
+    box-shadow: 0 0 20px #99cc99; /* Soft shadow (optional) */
+    box-shadow:inset 0 0 10px #99cc99; 
+}
+
+.projects__img-container img {
+    width: 100%;      /* fill container width */
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects__title-container {
+    font-family: Michroma, sans-serif;
+    font-weight: bolder;
+    color: #66b266;
+    text-shadow: 0 0 30px #66b266;
+    font-size: 1rem;
+}
+
+#projects .button-container {
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#projects .button-container a {
+    text-decoration: none;
+}
+
+/* sanity */
