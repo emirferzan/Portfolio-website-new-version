@@ -5,7 +5,7 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  padding: 3rem 1rem;
+  padding: 2.5rem 1rem;
 }
 
 body {
@@ -334,6 +334,7 @@ body {
 /* projects styling */
 
 #projects .home__textp1 {
+
     text-align: center;
 }
 #projects .home__text-title {
@@ -385,4 +386,87 @@ body {
     text-decoration: none;
 }
 
-/* sanity */
+/* Contact styling */
+
+#contact .home__textp1 {
+    margin-top: 4rem;
+}
+
+
+#contact .home__text-title {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+
+
+.contact__info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 2px solid #4ca64c;
+    border-radius: 20px;           /* Rounded corners (optional) */
+    padding: 1.5rem;                /* Space inside the box */
+    box-shadow: 0 0 20px #99cc99; /* Soft shadow (optional) */
+    box-shadow:inset 0 0 10px #99cc99; 
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+.contact__item-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.fa-envelope {
+    color: #66b266;
+    font-size: 2rem;
+    text-shadow: 0 0 20px #66b266;
+}
+#contact .fa-linkedin {
+    color: #66b266;
+    font-size: 2.3rem;
+    text-shadow: 0 0 20px #66b266;
+}
+
+.contact__item-container a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Michroma, sans-serif;
+    color: #66b266;
+    text-shadow: 0 0 20px #66b266;
+}
+
+/* footer styling */
+
+.footer__nav {
+    display: flex;
+    
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.footer__nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.footer__nav-list a {
+    
+    font-family: 'Michroma', sans-serif;
+    font-size: 1.4rem;
+    color: #66b266;
+    text-decoration: none;
+    margin-right: 2rem;
+    text-shadow: 0 0 20px #66b266;
+    transition: color 0.2s ease;
+}

@@ -26,11 +26,12 @@
      <link rel="stylesheet" href="css/main.css">
      <link rel="stylesheet" href="css/home.css">
      <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/mediaqueries.css">
 
 </head>
 
 <body>
-    <header class="home-header">
+    <header id="desktop-nav" class="home-header">
         <h1 class="home-header__name">Emir Ferzan</h1>
         <nav class="home-header__nav">
             <ul class="home-header__nav-list">
@@ -41,6 +42,22 @@
             </ul>
         </nav>
     </header>
+    <nav id="hamburger-nav">
+            <h1 class="home-header__name">Emir Ferzan</h1>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>  
+                  <span></span>  
+                  <span></span>  
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+            </div>
+        </nav>
     <main>
         <section id="home">
             <div class="home__container">
@@ -62,12 +79,11 @@
                 </div>
             </div>
         </section>
-
         <section id="about">
             <div class="about__container">
                 <div class="binary-canvas-container">
                     <canvas id="binary-canvas"></canvas>
-                    <script src="./js/main.js"></script>
+                    
                 </div>
                 <div class="about__text-container">
                     <div class="intro-text">
@@ -81,7 +97,6 @@
             </div>
             
         </section>
-
         <section id="experience">
             <div class="experience__text-container">
                 <p class="home__textp1">Explore my</p>
@@ -126,8 +141,38 @@
                 </div>
             </div>
         </section>
+        <section id="contact">
+            <p class="home__textp1">Get in Touch</p>
+            <h1 class="home__text-title">Contact Me</h1>
+            <div class="contact__info-container">
+                <div class="contact__item-container">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>
+                        <a href="mailto:exampleemail@gmail.com">emirferzan142@gmail.com</a>
+                    </p>
+                </div>
+                <div class="contact__item-container">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <p>
+                        <a href="https://www.linkedin.com/in/emir-ferzan-4a565a251/" target="_blank">Emir Ferzan</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <nav class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item"><a href="#about">About</a></li>
+                    <li class="footer__nav-item"><a href="#experience">Experience</a></li>
+                    <li class="footer__nav-item"><a href="#projects">Projects</a></li>
+                    <li class="footer__nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
     </main>
 <script src="./js/animation.js"></script>
+<script src="./js/main.js"></script>
+
 </body>
 
 </html>
