@@ -10,7 +10,7 @@ section {
 
 body {
     /* background-color: #191919; */
-    background-image: url("/assets/images/background.png"); /* path to your image */
+    background-image: url("/Portfolio-website-new-version/assets/images/background.png"); /* path to your image */
     background-size: cover;         /* scales image to cover entire screen */
     background-repeat: no-repeat;   /* no repeat */
     background-position: center;    /* keep the image centered */
@@ -66,7 +66,11 @@ body {
     
 }
 
-.home__pic-container {
+#home .button-container a {
+    text-decoration: none;
+}
+
+.home__pic-container{
     display: flex;
     margin-top: 2rem;
     margin-left: 10rem;
