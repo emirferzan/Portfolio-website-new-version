@@ -10,7 +10,7 @@ section {
 
 body {
     /* background-color: #191919; */
-    background-image: url("/Portfolio-website-new-version/assets/images/background.png"); /* path to your image */
+    background-image: url("../assets/images/background.png"); /* path to your image */
     background-size: cover;         /* scales image to cover entire screen */
     background-repeat: no-repeat;   /* no repeat */
     background-position: center;    /* keep the image centered */
